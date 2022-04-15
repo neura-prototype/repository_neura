@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ["http://165.232.131.242",]
+ALLOWED_HOSTS = ["165.232.131.242",]
 
 SECRET_KEY = config("SECRET_KEY")
 
